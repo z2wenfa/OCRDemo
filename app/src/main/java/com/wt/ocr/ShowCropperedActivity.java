@@ -91,7 +91,7 @@ public class ShowCropperedActivity extends AppCompatActivity {
             imageView.setLayoutParams(lp);
             Log.e(TAG, "imageView.getLayoutParams().width:" + imageView.getLayoutParams().width);
         }
-        imageView.setImageURI(uri);
+//        imageView.setImageURI(uri);
         imageView.setImageBitmap(ImageUtils.bytes2Bitmap(FileIOUtils.readFile2BytesByStream(fileUrl)));
     }
 
